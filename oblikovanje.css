@@ -1,0 +1,178 @@
+body{
+     background-image: url("slike/cube-background-2484131_1920.jpg");
+     font-family: Verdana, Arial, Helvetica, sans-serif;
+	 text-align: justify;
+	 margin-top: 120px; 
+	 line-height: 24px; 
+	 
+}
+
+header{
+	position: absolute; 
+	top: 0; 
+}
+
+h1{
+	text-align: center;
+    color: #FFD432;
+    text-decoration: underline;
+    font-family: "Verdana";
+	font-size: 26px; 
+
+}
+h2{
+	color: #FFD432;
+	font-family: "Verdana";
+	font-size: 18px;
+ 
+}
+
+h3{
+	color: #FFD432;
+}
+
+div{
+	text-align:center;
+}  
+
+footer {
+	position: absolute; 
+	bottom: auto; 
+    text-align:justify;
+	color: white;
+}
+
+.brez_oznake{
+	list-style-type:none;
+}
+
+.levo{
+	float: left; 
+	margin-left: 300px; 
+}
+
+.desno{
+	float: right;
+	margin-right: 300px; 
+	display: block; 
+	border: solid #1F3775 2px; 
+	background-color: #D7F3FF;
+	padding: 10px; 
+	line-height: 25px; 
+}
+
+a:hover { 
+	color: #F2CB05;
+	}
+
+ul.meni {
+   background: #D7D7D9;
+   height: 35px;
+   text-align: center; 
+   padding: 2px;   
+   float: right;
+   
+}
+
+ul.meni > li { 
+	margin-top: 10px; 
+	float: left;
+	position: relative;
+
+}
+ul.meni ul {
+    display: none;
+    position: absolute;
+ 
+}
+ul.meni a { 
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding: 0 10px;
+	margin: 2px; 
+}
+
+ul.meni li {
+	list-style: none;  
+	
+	}
+	
+ul.meni li:hover {
+	text-decoration: underline; 
+	text-decoration-color: white;
+	}
+	
+ul.meni li:hover ul { 
+	display: block;
+	background-color: #D7D7D9; 
+	padding:0; 
+	width: 100%; 
+	font-size: 14px;  
+ } 
+
+@media all and (max-width: 480px) {
+   ul.meni {  height: auto; }
+   ul.meni > li {  float: none; width: 100%; }
+   ul.meni a { line-height: 30px; }
+   ul.meni ul { position: relative; }
+}
+
+.logo {
+	width: auto;
+	height: 160px; 
+	float: left; 
+	margin: 10px;
+	margin-left:35px; 
+
+	
+}
+
+.besedilo1{
+	border: solid 2px #555555; 
+	background: #D7F3FF; 
+	width: auto;
+	opacity: 0.9; 
+	margin: 25px; 
+	padding: 10px;
+	font-size: 18px; 
+	
+}
+
+.besedilo_zid{
+	border: solid 2px #555555; 
+	background: #D7F3FF; 
+	width: auto;
+	opacity: 0.9; 
+	margin: 25px; 
+	padding: 10px;
+	font-size: 18px; 
+}
+
+.besedilokonec{
+	border: solid 2px #555555; 
+	background: #D7F3FF; 
+	width: 500px; 
+	opacity: 0.9; 
+	margin: 150px; 
+}
+
+.prvastran{
+	width: 325px; 
+	float: right; 
+	margin: 50px;
+}
+
+table{
+	margin: 45px; 
+	text-align: center; 
+
+}
+
+ol{
+	list-style-position: inside; 
+}
+
+ul{
+	list-style-position: inside; 
+}
